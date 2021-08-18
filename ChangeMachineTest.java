@@ -10,17 +10,17 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.io.*;
 
 /**
- * The test class TestChangeMachine.
+ * The test class ChangeMachineTest.
  *
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class TestChangeMachine
+public class ChangeMachineTest
 {
     /**
-     * Default constructor for test class TestChangeMachine
+     * Default constructor for test class ChangeMachineTest
      */
-    public TestChangeMachine()
+    public ChangeMachineTest()
     {
     }
 
@@ -45,7 +45,7 @@ public class TestChangeMachine
     }
 
     @Test
-    public void test_1() 
+    public void changeMachineTest1() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -67,7 +67,7 @@ public class TestChangeMachine
     }
     
     @Test
-    public void test_2() 
+    public void changeMachineTest2() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -89,7 +89,7 @@ public class TestChangeMachine
     }
     
     @Test
-    public void test_3() 
+    public void changeMachineTest3() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -111,7 +111,7 @@ public class TestChangeMachine
     }
     
     @Test
-    public void test_4() 
+    public void changeMachineTest4() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
